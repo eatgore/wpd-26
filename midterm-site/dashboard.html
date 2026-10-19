@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard - characafe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand-logo">☕ <span>characafe</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dashboard.html" class="active">Dashboard</a></li>
+        <li><a href="character.html">Featured OC</a></li>
+        <li><a href="roleplay.html">Roleplay</a></li>
+        <li><a href="create.html" class="btn-nav">+ New Character</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-header">
+      <div>
+        <h1 class="page-title">My Characters</h1>
+        <p class="page-subtitle">Manage and organize your character collection</p>
+      </div>
+      <div>
+        <a href="create.html" class="btn btn-primary">+ New Character</a>
+      </div>
+    </div>
+
+    <div class="dashboard-layout">
+      <!-- Folder Sidebar -->
+      <aside class="card" style="height: fit-content;">
+        <h2 style="font-size: 1rem; color: var(--text-muted); text-transform: uppercase;">Folders</h2>
+        <ul class="folder-list">
+          <li class="folder-item active"><span>All Characters</span> <span>3</span></li>
+          <li class="folder-item"><span>Main Cast</span> <span>1</span></li>
+          <li class="folder-item"><span>Fantasy World</span> <span>1</span></li>
+          <li class="folder-item"><span>Sci-Fi Concepts</span> <span>1</span></li>
+        </ul>
+      </aside>
+
+      <!-- Character Grid using local images 2, 3, and 4 -->
+      <section class="grid-3">
+        <!-- Character 1 (Image 2 of 4) -->
+        <a href="character.html" class="char-card">
+          <img src="character1.jpg" alt="Aurelia Vance" />
+          <div class="char-card-body">
+            <div>
+              <h3 class="char-card-title">Aurelia Vance</h3>
+              <p class="char-card-desc">Archivist at the Starlight Sanctuary who deciphers ancient celestial maps.</p>
+            </div>
+            <div class="tag-list">
+              <span class="tag-badge">❤️ Ships OK</span>
+              <span class="tag-badge">💬 RP Open</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Character 2 (Image 3 of 4) -->
+        <a href="character.html" class="char-card">
+          <img src="character2.jpg" alt="Kaelen Thorne" />
+          <div class="char-card-body">
+            <div>
+              <h3 class="char-card-title">Kaelen Thorne</h3>
+              <p class="char-card-desc">Wandering Sylvan botanist cataloging rare bioluminescent flora.</p>
+            </div>
+            <div class="tag-list">
+              <span class="tag-badge">❤️ Ships OK</span>
+              <span class="tag-badge">🔄 UFT</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Character 3 (Image 4 of 4) -->
+        <a href="character.html" class="char-card">
+          <img src="character3.jpg" alt="Nyx-7" />
+          <div class="char-card-body">
+            <div>
+              <h3 class="char-card-title">Nyx-7</h3>
+              <p class="char-card-desc">Courier automaton collecting vintage vinyl records and neon signage.</p>
+            </div>
+            <div class="tag-list">
+              <span class="tag-badge">🚫 No Ships</span>
+              <span class="tag-badge">💰 UFS</span>
+            </div>
+          </div>
+        </a>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>characafe &mdash; Your Cozy Character Storage. Built for writers, artists, and roleplayers.</p>
+  </footer>
+
+</body>
+</html>

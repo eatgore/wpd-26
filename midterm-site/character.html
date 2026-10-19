@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aurelia Vance - characafe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand-logo">☕ <span>characafe</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="character.html" class="active">Featured OC</a></li>
+        <li><a href="roleplay.html">Roleplay</a></li>
+        <li><a href="create.html" class="btn-nav">+ New Character</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <div style="margin-bottom: 1.25rem;">
+      <a href="dashboard.html" style="color: var(--accent-latte); font-size: 0.9rem;">&larr; Back to Dashboard</a>
+    </div>
+
+    <!-- Top Character Overview Card -->
+    <section class="card" style="margin-bottom: 2rem;">
+      <div class="profile-header">
+        <img src="character1.jpg" alt="Aurelia Vance" class="profile-avatar" />
+        <div class="profile-info">
+          <div class="page-header" style="margin-bottom: 0.75rem;">
+            <h1 class="page-title">Aurelia Vance</h1>
+            <a href="create.html" class="btn btn-primary">Edit Character</a>
+          </div>
+
+          <div class="tag-list">
+            <span class="tag-badge">❤️ Ships OK</span>
+            <span class="tag-badge">💬 RP Open</span>
+            <span class="tag-badge">🛡️ NFS</span>
+            <span class="tag-badge">📌 NFT</span>
+          </div>
+
+          <div class="traits-grid">
+            <div class="trait-box">
+              <span class="trait-label">Age</span>
+              <span class="trait-value">24</span>
+            </div>
+            <div class="trait-box">
+              <span class="trait-label">Species</span>
+              <span class="trait-value">Human / Astral Mage</span>
+            </div>
+            <div class="trait-box">
+              <span class="trait-label">Pronouns</span>
+              <span class="trait-value">She / Her</span>
+            </div>
+            <div class="trait-box">
+              <span class="trait-label">Occupation</span>
+              <span class="trait-value">Sanctuary Archivist</span>
+            </div>
+          </div>
+
+          <div class="warning-box">
+            <p class="warning-title">⚠️ Content Warnings</p>
+            <p style="font-size: 0.9rem; color: var(--text-muted);">Mild fantasy violence, arcane themes, insomnia</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Profile Sections -->
+    <h2 style="font-size: 1.75rem; margin-bottom: 1rem;">Profile &amp; Lore</h2>
+    <section class="grid-3">
+      <div class="card">
+        <h3 class="char-card-title" style="color: var(--accent-latte);">Backstory</h3>
+        <p class="char-card-desc" style="margin-bottom: 0;">
+          Aurelia spent her youth deciphering star charts in the upper spires of Oakhaven. Calm under pressure
+          but fiercely protective of ancient relics, she brews spiced herbal tea to stay awake during multi-day celestial alignments.
+        </p>
+      </div>
+      <div class="card">
+        <h3 class="char-card-title" style="color: var(--accent-latte);">Personality</h3>
+        <p class="char-card-desc" style="margin-bottom: 0;">
+          Observant, patient, and slightly scatterbrained when immersed in translation work. Always carries a brass pocket astrolabe and ink-stained journal.
+        </p>
+      </div>
+      <div class="card">
+        <h3 class="char-card-title" style="color: var(--accent-latte);">Abilities &amp; Inventory</h3>
+        <p class="char-card-desc" style="margin-bottom: 0;">
+          Skilled in astral projection, glyph warding, and cartography. Known for brewing the best cardamom latte in the Northern Reach.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>characafe &mdash; Your Cozy Character Storage. Built for writers, artists, and roleplayers.</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roleplay Lounge - characafe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand-logo">☕ <span>characafe</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="character.html">Featured OC</a></li>
+        <li><a href="roleplay.html" class="active">Roleplay</a></li>
+        <li><a href="create.html" class="btn-nav">+ New Character</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main style="max-width: 900px;">
+    <div class="page-header">
+      <div>
+        <h1 class="page-title">Roleplay Lounge</h1>
+        <p class="page-subtitle">Active collaborative storytelling sessions</p>
+      </div>
+      <span class="tag-badge" style="color: var(--accent-latte); border: 1px solid var(--accent-latte);">🟢 Active Scene</span>
+    </div>
+
+    <section class="card" style="margin-bottom: 2rem;">
+      <h2 style="font-size: 1.35rem; margin-bottom: 0.25rem;">Rainy Evening at the Starlight Tavern</h2>
+      <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 1.5rem;">Participants: Aurelia Vance, Kaelen Thorne, &amp; Nyx-7</p>
+
+      <div class="chat-post">
+        <img src="character1.jpg" alt="Aurelia Vance" class="chat-avatar" />
+        <div class="chat-bubble">
+          <span class="chat-author">Aurelia Vance</span>
+          <p>
+            She sets her brass astrolabe beside a steaming mug of spiced cider, glancing up as the tavern door creaks open against the pouring rain.
+            "You're late, Kaelen. Did the northern moss samples give you trouble?"
+          </p>
+        </div>
+      </div>
+
+      <div class="chat-post">
+        <img src="character2.jpg" alt="Kaelen Thorne" class="chat-avatar" />
+        <div class="chat-bubble">
+          <span class="chat-author">Kaelen Thorne</span>
+          <p>
+            He shakes the rainwater from his cloak with a sheepish grin, placing a glowing glass jar onto the scarred oak table.
+            "Worth every drop of rain. Look at the luminescence on this specimen—it reacts to starlight."
+          </p>
+        </div>
+      </div>
+
+      <div class="chat-post" style="margin-bottom: 0;">
+        <img src="character3.jpg" alt="Nyx-7" class="chat-avatar" />
+        <div class="chat-bubble">
+          <span class="chat-author">Nyx-7</span>
+          <p>
+            Optical sensors whir softly as the courier unit leans over the booth, scanning the jar's faint blue glow.
+            "Bioluminescence reading confirmed. Also, the tavern jukebox is functional—requesting permission to play track 04."
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h3 style="font-size: 1.15rem; margin-bottom: 1rem;">Post a Reply</h3>
+      <form action="roleplay.html" method="get">
+        <div class="form-group">
+          <label for="speaker" class="form-label">Post As</label>
+          <select id="speaker" name="speaker" class="form-select">
+            <option value="aurelia">Aurelia Vance</option>
+            <option value="kaelen">Kaelen Thorne</option>
+            <option value="nyx">Nyx-7</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="reply" class="form-label">Dialogue / Action</label>
+          <textarea id="reply" name="reply" rows="4" class="form-textarea" placeholder="Write your character's response..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Reply</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>characafe &mdash; Your Cozy Character Storage. Built for writers, artists, and roleplayers.</p>
+  </footer>
+
+</body>
+</html>
