@@ -1,23 +1,24 @@
 # **Asher Beebe-Edwards**
-> "h"
+![a picture of asher](me.png)
+> *"Absurdity and anti - absurdity are the two poles of creative energy."* — Karl Lagerfeld
 ## *About Me*
 
 Hi! I'm Asher, and I'm currently a freshman. I enjoy doing web design in my free time and currently own two domains with one of them being active, which is my small online business.
 
-## Skills
+## *Skills*
 
 - HTML
 - Digital Art
 - Business management
 - Ceramics
 
-## Goals
+## *Goals*
 
 - [x] Learn how to host a website
 - [ ] Learn how to code with JavaScript
 - [ ] Make a prototype social media website
 
-## Example Code
+## *Code Snippet*
 
 ```html
 <div class="animated-rainbow">Rainbow Gradient Text!</div>
@@ -42,7 +43,11 @@ Hi! I'm Asher, and I'm currently a freshman. I enjoy doing web design in my free
 }
 ```
 
-## Links
+## *Links*
 
--
--
+### My Github:
+[Link](https://github.com/eatgore)
+
+### My Favorite Coding Resource:
+[Link](https://codehim.com)
+![preview of the codehim.com website](image.png)
